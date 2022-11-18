@@ -1,0 +1,10 @@
+^C:\USERS\JOVAN\DESKTOP\UNIVERSITY\1. PROGRAMMING\TNG033 (C++)\LABS\LAB1\BUILD\CMAKEFILES\ACC25AB5C0CF46E21E4A6735186EE94A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Jovan/Desktop/University/1. Programming/TNG033 (C++)/Labs/lab1/code" "-BC:/Users/Jovan/Desktop/University/1. Programming/TNG033 (C++)/Labs/lab1/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Jovan/Desktop/University/1. Programming/TNG033 (C++)/Labs/lab1/build/TNG033-Lab-1.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

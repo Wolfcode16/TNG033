@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab1\code\set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab1\code\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab1\code\set.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab1\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F22C4C7E-2F3D-3E43-8AC7-9457270DB3A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{09E8C135-ECCD-3B9C-BCB5-6DB1306177BF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
