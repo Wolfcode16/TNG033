@@ -1,0 +1,457 @@
+﻿  expression.cpp
+  polynomial.cpp
+  logarithm.cpp
+  main.cpp
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,22): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,22): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,22): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,22): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,22): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(23,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(43,26): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(43,26): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(43,26): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(43,26): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(43,26): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(43,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(43,28): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(63,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(63,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(63,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(63,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(63,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(63,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(63,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(65,13): error C2676: binary '[': 'Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(73,26): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(73,26): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(73,26): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(73,26): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(73,26): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(73,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(73,28): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(77,9): error C2676: binary '[': 'const Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(90,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(90,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(90,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(90,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(90,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(90,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(90,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(92,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(92,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(92,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(92,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(92,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(96,13): error C2676: binary '[': 'Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(116,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(116,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(116,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(116,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(116,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(116,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(116,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(128,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(128,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(128,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(128,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(128,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(128,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(128,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(130,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(130,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(130,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(130,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(130,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(130,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(130,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(142,13): error C2676: binary '[': 'Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(162,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(162,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(162,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(162,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(162,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(162,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(162,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(167,26): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(167,26): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(167,26): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(167,26): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(167,26): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(167,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(167,28): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(187,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(187,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(187,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(187,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(187,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(187,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(187,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(192,26): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(192,26): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(192,26): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(192,26): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(192,26): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(192,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(192,28): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(207,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(207,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(207,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(207,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(207,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(207,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(207,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(210,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(210,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(210,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(210,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(210,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(210,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(210,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(212,12): error C2676: binary '+=': 'Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(221,12): error C2676: binary '+=': 'Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(241,26): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(241,26): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(241,26): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(241,26): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(241,26): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(241,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(241,28): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(244,26): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(244,26): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(244,26): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(244,26): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(244,26): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(244,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(244,28): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(247,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(247,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(247,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(247,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(247,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(247,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(247,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(251,35): error C2676: binary '+': 'const Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(256,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(256,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(256,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(256,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(256,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(256,28): error C2676: binary '+': 'const Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(277,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(277,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(277,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(277,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(277,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(277,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(277,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(279,12): error C2676: binary '+=': 'Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(287,18): error C2677: binary '+': no global operator found which takes type 'Polynomial' (or there is no acceptable conversion)
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(297,26): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(297,26): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(297,26): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(297,26): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(297,26): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(297,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(297,28): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(299,20): error C2677: binary '+': no global operator found which takes type 'const Polynomial' (or there is no acceptable conversion)
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(321,19): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(321,19): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(321,19): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(321,19): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(321,19): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(331,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(331,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(331,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(331,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(331,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(331,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(331,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(333,19): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(333,19): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(333,19): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(333,19): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(333,19): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(333,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(333,21): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(339,13): error C2676: binary '[': 'Polynomial' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(344,19): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(344,19): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(344,19): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(344,19): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(344,19): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(344,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(344,21): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(348,12): error C2039: 'set_base': is not a member of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(369,19): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(369,19): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(369,19): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(369,19): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(369,19): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(372,33): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(372,33): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(372,33): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(372,33): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(372,33): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(372,42): error C2440: 'initializing': cannot convert from 'initializer list' to 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(372,42): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(375,19): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(375,19): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(375,19): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(375,19): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(375,19): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(399,25): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(399,25): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(399,25): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(399,25): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(399,25): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(404,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(404,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(404,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(404,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(404,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(404,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(404,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(406,19): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(406,19): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(406,19): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(406,19): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(406,19): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(406,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(406,21): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(420,25): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(420,25): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(420,25): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(420,25): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(420,25): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(425,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(425,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(425,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(425,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(425,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(425,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(425,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(427,19): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(427,19): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(427,19): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(427,19): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(427,19): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(427,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(427,21): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(441,19): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(441,19): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(441,19): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(441,19): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(441,19): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(445,20): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(445,20): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(445,20): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(445,20): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(445,20): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(445,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(445,22): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(447,33): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(447,33): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(447,33): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(447,33): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(447,33): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(447,42): error C2440: 'initializing': cannot convert from 'initializer list' to 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(447,42): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,40): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,40): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,40): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,40): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,40): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,49): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,49): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,49): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,49): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,49): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,57): error C2259: 'Polynomial': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\polynomial.h(12,7): message : see declaration of 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,57): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,57): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,57): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,57): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,67): error C2440: 'initializing': cannot convert from 'initializer list' to 'Polynomial'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,67): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,98): error C2259: 'Logarithm': cannot instantiate abstract class
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\logarithm.h(12,7): message : see declaration of 'Logarithm'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,98): message : due to following members:
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,98): message : 'double Expression::operator ()(double) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(41,20): message : see declaration of 'Expression::operator ()'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,98): message : 'Expression *Expression::clone(void) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(46,25): message : see declaration of 'Expression::clone'
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\main.cpp(474,98): message : 'void Expression::display(std::ostream &) const': is abstract
+C:\Users\Jovan\Desktop\University\1. Programming\TNG033 (C++)\Labs\lab2\code\expression.h(67,18): message : see declaration of 'Expression::display'
+  Generating Code...
