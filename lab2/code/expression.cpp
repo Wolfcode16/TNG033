@@ -16,7 +16,7 @@ std::size_t Expression::get_count_expressions() {
 
 /* ************************* */
 bool Expression::isRoot(double x) const {
-    if (this->operator()(x) == 0) { // GOTO: expression.h
+    if (this->operator()(x) <= Epsilon) { // GOTO: expression.h
         return true;
     }
     return false;
