@@ -67,6 +67,6 @@ double& Polynomial::operator[](int arg) {
     return coeff[arg];                      // Return the coeff in place arg
 }
 
-double Polynomial::operator[](int arg) const {
+const double Polynomial::operator[](int arg) const {
     return coeff[arg];
 }
