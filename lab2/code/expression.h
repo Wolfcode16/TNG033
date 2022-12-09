@@ -60,6 +60,8 @@ protected:
     Expression(const Expression&) {
         ++count_expressions;
     }
+    
+    Expression& operator=(const Expression&) = default;
 
     // Total number of existing expressions -- to help to detect bugs in the code
     static std::size_t count_expressions;
