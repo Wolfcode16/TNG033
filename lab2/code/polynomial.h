@@ -34,7 +34,7 @@ public:
 
 	double operator()(double d) const override;	// Calculates value of polynomial
 	double& operator[](int arg);				// Subscript operator, to be able to assign
-	double operator[](int arg) const;			// Subscript operator, to be able to compare
+	const double operator[](int arg) const;			// Subscript operator, to be able to compare
 
 private:
 	std::vector<double> coeff;
