@@ -27,6 +27,7 @@
 * 1. Declarations              *
 ********************************/
 
+// std::pair < Type1, Type2 >
 // Type1 = string           (Subject)
 // Type2 = set<std::string> (Anagrams)
 using Table = std::pair < std::string, std::set<std::string>>;
@@ -37,7 +38,7 @@ using Table = std::pair < std::string, std::set<std::string>>;
 *******************************/
 int main() {
 
-    // Skriva in och l‰sa filen
+    // Skriva in och l√§sa filen
     std::cout << "Text file: ";
     std::string fileName;
     std::cin >> fileName;
@@ -57,21 +58,18 @@ int main() {
     // Creates a vector of type string to hold our words (from dictionary)
     std::vector<std::string> words; 
 
-    /* - 1st input: (start range) 
-    *  - 2nd input: (end range)
-    *  - 3rd input: (beginning of destinatin range)
-    *   [std::istream_iterator] = points to the container of istream */
+    // Std::copy( start range, end range, beginning of destination range)
+    //[std::istream_iterator] = points to the container of istream
     std::copy(std::istream_iterator<std::string>(in_File), std::istream_iterator<std::string>(), std::back_inserter(words));
 
-
     // Add the each word from the vector "words" to the list of anagrams for its subject
-    // 
+    // for_each( start range, end range, function) 
     std::for_each(words.begin(), words.end(), [&subjects](std::string Word) {
 
-        std::string temp = Word;
-
-        std::sort(Word.begin(), Word.end());
-        subjects[Word].insert(temp);
+        std::string temp = Word;                // Create temp string to store Word
+ 
+        std::sort(Word.begin(), Word.end());    // Sort the alphabets in Word
+        subjects[Word].insert(temp);            // Insert temp (Word) with subject into the table "subjects" 
         });
 
     // Create an output file stream
@@ -79,23 +77,24 @@ int main() {
 
     // Write the number of words read from the input file
     output << "Total number of words: " << words.size() << std::endl;
-
-    // Iterate over the map and write the anagrams for each subject
-    //for (const auto& [subject, anagrams] : subjects) {}
     output << std::endl << "-- ANAGRAMS --" << std::endl;
 
-    std::for_each(subjects.begin(), subjects.end(), [&output](Table p) {
+    // Iterate over the map and write the anagrams for each subject
+    // for_each(start range, end range, function)
+    std::for_each(subjects.begin(), subjects.end(), [&output](Table table) {
+
     // Write the anagrams only if there are two or more
-    if (p.second.size() >= 2) {
+    if (table.second.size() >= 2) {
 
-        // Use the std::for_each algorithm to write the anagrams to the output stream
-        std::copy(p.second.begin(), p.second.end(), std::ostream_iterator<std::string>(output, " "));
+        //std::copy(start range, end range, output destination range)
+        // copy anagrams
+        // use ostream_iterator to write each word to ofstream "output" and add a " " between the words
+        std::copy(table.second.begin(), table.second.end(), std::ostream_iterator<std::string>(output, " "));
 
-        output << " --> " << p.second.size() << " words." << std::endl;
+        // Write following into output
+        output << " --> " << table.second.size() << " words." << std::endl;
     }
     });
-
-    std::cout << "Mhm borde funka...?";
 
     return 0;
 }
