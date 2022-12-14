@@ -18,10 +18,11 @@
  /*******************************
  * 0. Idea & Concept            *
  ********************************/
- // STEP 1: Create vector & get words from file
- // STEP 2: Created new vector & sort words to get word_key
- // STEP 3: Insert into table, table will handle uniqueness of keys
- //         will also insert word into slot with same key
+ // STEP 1: Create a table to hold all subjects and their anagrams
+ // STEP 2: Create a vector<std::string>  and insert words from uppgift2.txt
+ // STEP 3: Convert word to subject and insert both the word & subject into the table
+ //         The table will make sure no duplicates happen, therefore if you send a word 
+ //         with already existing subject they will add the anagram.
 
 /*******************************
 * 1. Declarations              *
@@ -52,16 +53,19 @@ int main() {
         return 0;
     }
 
+    // ============= STEP 1 ============= 
     // Create a map to hold all the subjects and their corresponding anagrams
     std::map<std::string, std::set<std::string>> subjects;
 
     // Creates a vector of type string to hold our words (from dictionary)
     std::vector<std::string> words; 
 
+    // ============= STEP 2 ============= 
     // Std::copy( start range, end range, beginning of destination range)
     //[std::istream_iterator] = points to the container of istream
     std::copy(std::istream_iterator<std::string>(in_File), std::istream_iterator<std::string>(), std::back_inserter(words));
 
+    // ============= STEP 3 =============
     // Add the each word from the vector "words" to the list of anagrams for its subject
     // for_each( start range, end range, function) 
     std::for_each(words.begin(), words.end(), [&subjects](std::string Word) {
@@ -69,9 +73,10 @@ int main() {
         std::string temp = Word;                // Create temp string to store Word
  
         std::sort(Word.begin(), Word.end());    // Sort the alphabets in Word
-        subjects[Word].insert(temp);            // Insert temp (Word) with subject into the table "subjects" 
+        subjects[Word].insert(temp);            // Insert temp (Word) and subject into the table "subjects" 
         });
 
+    // ============= Writing it out to an output =============
     // Create an output file stream
     std::ofstream output("../code/output.txt");
 
